@@ -1,8 +1,8 @@
 package ru.edwgiz.test1.largeFileSorting;
 
-
 import java.io.BufferedReader;
 import java.io.InputStream;
+
 
 final class SortedFragment {
 

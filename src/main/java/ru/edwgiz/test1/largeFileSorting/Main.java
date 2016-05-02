@@ -15,8 +15,10 @@ import static java.nio.charset.StandardCharsets.ISO_8859_1;
 import static java.nio.file.StandardOpenOption.*;
 
 /**
- * Splits source unsorted file to several sorted files,
+ * Splits raw unsorted file to several sorted files,
  * and merge them to one sorted destination file.
+ * <br/>
+ * Asymptotic computational complexity - O( ( n*log(n) )^2 )
  */
 public class Main {
 
